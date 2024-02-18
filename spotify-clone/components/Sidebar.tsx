@@ -5,6 +5,7 @@ import { usePathname } from 'next/navigation';
 import React, { useMemo } from 'react'
 import { BiSearch } from 'react-icons/bi';
 import { HiHome } from 'react-icons/hi';
+import { Box } from './Box';
 
 interface Siderbarprops{
     children: React.ReactNode;
