@@ -11,6 +11,9 @@ export default function Home() {
    overflow-hidden 
    overflow-y-auto
  ">
+  <Header>
+    header
+  </Header>
     
    </div>
   );
