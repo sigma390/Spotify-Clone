@@ -70,6 +70,11 @@ export const Header: React.FC<HeaderProps> = ({
 
 
         </div>
+        <div className='flex md:hidden gap-x-2 items-center'>
+
+
+
+        </div>
 
 
     </div>
