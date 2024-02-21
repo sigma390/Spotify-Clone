@@ -104,7 +104,9 @@ export const Header: React.FC<HeaderProps> = ({
         gap-x-4'>
           <>
           <div>
-            <Button/>
+            <Button>
+              
+            </Button>
           </div>
           </>
         </div>
