@@ -1,6 +1,7 @@
 "use client";
 import { useRouter } from 'next/navigation';
 import React from 'react'
+import { RxCaretLeft } from 'react-icons/rx';
 import { twMerge } from 'tailwind-merge';
 
 interface HeaderProps {
@@ -17,7 +18,7 @@ export const Header: React.FC<HeaderProps> = ({
   }) => {
     const router = useRouter();
   return (
-    <div
+  <div
     className={twMerge(`
     h-fit 
     bg-gradient-to-b 
@@ -40,14 +41,16 @@ export const Header: React.FC<HeaderProps> = ({
             gap-x-2
             items-center"> 
 
-
-              <div className="flex
-               md:hidden
-               gap-x-2 
-               items-center
-               ">
-                
-               </div>
+              <button className='
+              rounded-full
+              bg-black
+              flex
+              items-center
+              justify-center
+              hover:opacity-75
+              transition' >
+                  <RxCaretLeft className='text-white' size={35}/>
+                </button>
 
 
 
@@ -55,5 +58,7 @@ export const Header: React.FC<HeaderProps> = ({
 
 
     </div>
+    </div>
   )
 }
+
