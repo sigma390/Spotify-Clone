@@ -115,8 +115,20 @@ export const Header: React.FC<HeaderProps> = ({
               Sign up
             </Button>
           </div>
+          <div>
+            <Button
+            className='
+            bg-transparent
+            text-neutral-300
+            font-medium'
+            
+            
+            >
+              Log in
+            </Button>
+          </div>
 
-          
+
           </>
         </div>
 
