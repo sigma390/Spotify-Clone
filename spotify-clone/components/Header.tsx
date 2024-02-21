@@ -41,7 +41,10 @@ export const Header: React.FC<HeaderProps> = ({
             gap-x-2
             items-center"> 
 
-              <button className='
+              <button
+              onClick={()=>router.back()}
+              
+              className='
               rounded-full
               bg-black
               flex
@@ -52,7 +55,9 @@ export const Header: React.FC<HeaderProps> = ({
                   <RxCaretLeft className='text-white' size={35}/>
                 </button>
 
-                <button className='
+                <button 
+                onClick={()=>router.forward()}
+                className='
               rounded-full
               bg-black
               flex
