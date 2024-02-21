@@ -104,10 +104,19 @@ export const Header: React.FC<HeaderProps> = ({
         gap-x-4'>
           <>
           <div>
-            <Button>
+            <Button
+            className='
+            bg-transparent
+            text-neutral-300
+            font-medium'
+            
+            
+            >
               Sign up
             </Button>
           </div>
+
+          
           </>
         </div>
 
