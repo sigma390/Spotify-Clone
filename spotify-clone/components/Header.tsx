@@ -105,6 +105,7 @@ export const Header: React.FC<HeaderProps> = ({
           <>
           <div>
             <Button
+            onClick={()=>{}}
             className='
             bg-transparent
             text-neutral-300
@@ -117,10 +118,14 @@ export const Header: React.FC<HeaderProps> = ({
           </div>
           <div>
             <Button
+            onClick={()=>{}}
+
             className='
-            bg-transparent
-            text-neutral-300
-            font-medium'
+            bg-white
+            px-6
+            py-2
+           
+            '
             
             
             >
@@ -134,6 +139,7 @@ export const Header: React.FC<HeaderProps> = ({
 
 
     </div>
+    {children}
     </div>
   )
 }
