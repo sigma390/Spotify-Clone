@@ -3,6 +3,7 @@ import { useRouter } from 'next/navigation';
 import React from 'react'
 import { RxCaretLeft, RxCaretRight } from 'react-icons/rx';
 import { twMerge } from 'tailwind-merge';
+import { HiHome } from 'react-icons/hi';
 
 interface HeaderProps {
     children: React.ReactNode;
@@ -71,6 +72,16 @@ export const Header: React.FC<HeaderProps> = ({
 
         </div>
         <div className='flex md:hidden gap-x-2 items-center'>
+
+          <button className='flex
+          items-center
+          justify-center
+          hover:opacity-75
+          bg-white
+          rounded-full
+          p-2'>
+            <HiHome className='text-black size={20}'/>
+          </button>
 
 
 
